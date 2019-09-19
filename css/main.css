@@ -1,0 +1,62 @@
+.manifesto {
+    border: solid lightgray 5px;
+    color: white;
+    display: grid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 17px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 200px 400px;
+    width: 400px;
+    text-align: center; 
+}
+
+span {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.rectangle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.square {
+    padding: 20px;
+}
+
+.red {
+    background-color: #24305E;
+    color: #F8E9A1;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.blue {
+    background-color:#F8E9A1;
+    color: #24305E;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lgreen {
+    background-color: #A8D0E6;
+    color: #24305E;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.teal {
+    background-color:#F76C6C;
+    color: #24305E;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#padding {
+    padding: 14px;
+}
